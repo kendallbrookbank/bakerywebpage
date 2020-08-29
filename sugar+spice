@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">    
+    <style>
+.Bakery {
+    width: 1000px;
+    border: 15px solid aquamarine;
+    padding: 30px;
+    margin: 20px;
+
+}        
+body {
+    background-color: lightsalmon;
+    color:linen;
+    font-size: 18px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.navbar {
+    background-color: papayawhip;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+    width: 100%;
+    display: inline-block;
+    display: center;
+}
+.navbar-brand {
+    font-size: 35px;
+    text-align: center;
+    margin: 20px;
+}
+.active,a {
+    background-color: papayawhip;
+    color: palevioletred;
+    text-decoration: none;
+    display: inline;
+    word-spacing: 10px;
+}
+.inventory {
+    background-color: palevioletred;
+    color: papayawhip;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    margin: 20px;
+    padding: 20px;
+    width: 900px;
+  
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    background-color: plum;
+    justify-content: center;
+}
+.flex-container > div {
+  background-color:pink;
+  width: 900px;
+  margin: 10px;
+}
+h1 {
+    text-align: center;
+}
+.contact {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 15px solid plum;
+    justify-content: center;
+    width: 1010px;
+    display: flex;
+    position: center;
+
+    margin: 20px;
+    gap: 25px;
+}
+
+    </style>
+    <head>
+        <title>Bakery</title>
+    </head>
+    <body>
+    <div class= "Bakery">
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid" style="border: 10px solid pink">
+              <div class="navbar-header" style="text-align: center;">
+                <a class="navbar-brand" href="#">Sugar + Spice</a>
+              </div>
+        </div>
+          </nav>
+        
+          <div class="inventory">
+<div class="flex-container">
+    
+        <div><h1>Candy</h1>
+           <ul> 
+            <li>GummyWorms</li>
+            <li>Nerds</li>
+            <li>JollyRanchers</li>
+            <li>M&M's</li>
+            <li>ChocolateBars</li>
+            <li>Lollipop's</li>
+            <li>SeaSaltChew</li>
+        </ul></div>
+
+        <div>
+        <h1>Ice Cream</h1>
+        <ul><li>Vanilla</li>
+        <li>Chocolate</li>
+        <li>Strawberry</li>
+        <li>CookieDough</li>
+        <li>PeanutButter</li>
+        </ul></div>
+
+<div>
+        <h1>Baked Goods</h1>
+        <ul><li>Muffins</li>
+        <li>Scones</li>
+        <li>Cupcakes</li>
+        <li>Pies</li>
+        </ul></div>
+    </div>
+</div>
+</div>
+<div class="contact">
+    <h3> 1234 Sugar Ln. <br>
+        Palm Springs, CA 92262<br>
+    </h3><h3>(555)-555-5555</h3>
+    <h3>Find us on social media 
+    <br>@Sugar_Spice_Bakery</h3>
+    
+</div>
+    </body>
+</html>
